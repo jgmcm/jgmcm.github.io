@@ -1,8 +1,11 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  <a href="https://www.manchester.ac.uk/">The University of Manchester</a> ·
+  <a href="https://www.graphene.manchester.ac.uk/ngi/">National Graphene Institute</a> ·
 
 profile:
   align: right
