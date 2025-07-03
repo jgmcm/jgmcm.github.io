@@ -21,7 +21,7 @@ nav_order: 2
 Since January 2025, I am a Dame Kathleen Ollerenshaw Research Fellow at the University of Manchester. My lab is centered on theoretical and computational, ab-initio and machine learning, modelling of complex electron density effects in two-dimensional materials.
 
 ## PhD Studentships
-I’m looking for motivated PhD candidates in any of the areas below. If your interests overlap, please get in touch!
+I’m looking for motivated PhD candidates in any of the areas below. If your interests overlap, please get in touch.
 
 - **Two-dimensional materials**
   - Fundamental DFT modelling of 2D magnets, metals and semiconductors  
@@ -42,7 +42,6 @@ I’m looking for motivated PhD candidates in any of the areas below. If your in
 
 If you’re interested in working with me on these topics, drop an email to james [dot] mchugh [at] manchester [dot] ac [dot] uk sharing more about your interests and background!
 
-- 
 
 ### Post-doctoral fellows
 We’re always keen to hear from strong applicants — please email a CV and a short statement
