@@ -417,12 +417,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-arxiv-preprint-sub-nm-curvature-unlocks-quantum-flexoelectricity-in-graphene",
-          title: 'ArXiv preprint – Sub-nm Curvature Unlocks Quantum Flexoelectricity in Graphene',
+            },},{id: "news-new-arxiv-preprint-sub-nm-curvature-unlocks-quantum-flexoelectricity-in-graphene-recent-preprint-where-we-find-the-first-direct-experimental-and-theoretical-evidence-for-intrinsic-quantum-flexoelectricity-in-graphene-nanowrinkles-with-measured-polarization-densities-which-are-5-7-orders-of-magnitude-above-mesoscale-systems",
+          title: '🎉 New arXiv preprint: Sub-nm Curvature Unlocks Quantum Flexoelectricity in Graphene Recent preprint...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_1/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
