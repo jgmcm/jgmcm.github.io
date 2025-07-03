@@ -30,20 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -412,13 +398,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-new-arxiv-preprint-sub-nm-curvature-unlocks-quantum-flexoelectricity-in-graphene-recent-preprint-where-we-find-the-first-direct-experimental-and-theoretical-evidence-for-intrinsic-quantum-flexoelectricity-in-graphene-nanowrinkles-with-measured-polarization-densities-which-are-5-7-orders-of-magnitude-above-mesoscale-systems",
           title: '🎉 New arXiv preprint: Sub-nm Curvature Unlocks Quantum Flexoelectricity in Graphene Recent preprint...',
+          description: "",
+          section: "News",},{id: "news-new-paper-in-nano-letters-gate-tunable-band-edge-in-few-layer-mos2",
+          title: '🎉 New paper in Nano Letters:  Gate-Tunable Band Edge in Few-Layer MoS2',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
