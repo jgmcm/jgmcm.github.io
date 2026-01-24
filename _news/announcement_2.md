@@ -11,4 +11,6 @@ inline: true
 
 [Gate-Tunable Band Edge in Few-Layer MoS<sub>2</sub>](https://doi.org/10.1021/acs.nanolett.5c01998)
 
+Experimental and theoretical study of gate-tunable band edge physics in few-layer MoS2.
+
 

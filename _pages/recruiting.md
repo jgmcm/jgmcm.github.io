@@ -21,26 +21,32 @@ nav_order: 2
 Since January 2025, I am a Dame Kathleen Ollerenshaw Research Fellow at the University of Manchester. My lab is centered on theoretical and computational, ab-initio and machine learning, modelling of complex electron density effects in two-dimensional materials.
 
 ## PhD Studentships
-I’m looking for motivated PhD candidates in any of the areas below. If your interests overlap, please get in touch.
+I'm looking for motivated PhD candidates in any of the areas below. If your interests overlap, please get in touch.
 
 - **Two-dimensional materials**
-  - Fundamental DFT modelling of 2D magnets, metals and semiconductors  
+  - Fundamental DFT modelling of 2D magnets, metals and semiconductors
   - High-throughput DFT screening of emerging 2D compounds
-  
+
 - **Twistronics**
   - Twistronic effects in incommensurate heterostructures
   - Wigner crystallisation, QAHE & other correlated phenomena in twisted TMDs and mirror-twin boundaries
-  
+
 - **Stacking ferromagnetism / ferroelectricity / multiferroics**
-  - Engineering stacked multiferroic interfaces  
+  - Engineering stacked multiferroic interfaces
   - Altermagnetism & linear multiferroic effects via stacked monolayer anti/ferromagnets
-  
+
 - **Machine-learning potentials**
-  - Graph-neural-network interatomic potentials  
-  - Charge-density prediction  
+  - Graph-neural-network interatomic potentials
+  - Charge-density prediction
   - Bayesian optimisation for MLIP and CD-ML models
 
-If you’re interested in working with me on these topics, drop an email to james [dot] mchugh [at] manchester [dot] ac [dot] uk sharing more about your interests and background!
+If you're interested in working with me on these topics, drop an email to james [dot] mchugh [at] manchester [dot] ac [dot] uk sharing more about your interests and background!
+
+### Current Funded Opportunity
+
+**[Multi-modal AI models for designer ferroelectric devices](https://www.findaphd.com/phds/project/multi-modal-ai-models-for-designer-ferroelectric-devices/?p191593)** (EPSRC CDT in Materials 4.0, Henry Royce Institute)
+
+This fully-funded PhD project investigates multilayer functional devices built from stacked 2D semiconductors and magnetic materials. Using high-throughput DFT, machine-learning interatomic potentials (ACE/MACE), and multi-modal charge-aware models, we will explore how chemistry, stacking sequence, and interfacial twist control ferroelectric responses in sliding ferroelectric tunnel junctions, field-tuneable optoelectronics, and multiferroic memories. Candidates of all nationalities welcome; up to 30% of CDT studentships can be awarded to international applicants.
 
 
 ### Post-doctoral fellows
