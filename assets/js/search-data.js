@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-code",
+          title: "Code",
+          description: "Open-source software and research code.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/code/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -399,13 +406,16 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-new-arxiv-preprint-sub-nm-curvature-unlocks-quantum-flexoelectricity-in-graphene-recent-preprint-where-we-find-the-first-direct-experimental-and-theoretical-evidence-for-intrinsic-quantum-flexoelectricity-in-graphene-nanowrinkles-with-measured-polarization-densities-which-are-5-7-orders-of-magnitude-above-mesoscale-systems",
-          title: '🎉 New arXiv preprint: Sub-nm Curvature Unlocks Quantum Flexoelectricity in Graphene Recent preprint...',
+          title: 'New arXiv preprint Sub-nm Curvature Unlocks Quantum Flexoelectricity in Graphene Recent preprint where...',
           description: "",
-          section: "News",},{id: "news-new-paper-in-nano-letters-gate-tunable-band-edge-in-few-layer-mos2",
-          title: 'New paper in Nano Letters  Gate-Tunable Band Edge in Few-Layer MoS2',
+          section: "News",},{id: "news-new-paper-in-nano-letters-gate-tunable-band-edge-in-few-layer-mos2-experimental-and-theoretical-study-of-gate-tunable-band-edge-physics-in-few-layer-mos2",
+          title: 'New paper in Nano Letters Gate-Tunable Band Edge in Few-Layer MoS2 Experimental and...',
           description: "",
           section: "News",},{id: "news-new-paper-in-acs-nano-atomic-imaging-of-2d-transition-metal-diiodides-we-used-dft-to-calculate-stacking-energies-to-characterize-stacking-polytypes-and-their-evolution-with-layer-number-we-also-computed-point-and-line-defect-formation-energies-fitting-a-thermodynamic-model-to-dft-to-understand-the-conformation-of-edges-in-exfoliated-samples",
           title: 'New paper in ACS Nano Atomic Imaging of 2D Transition Metal Diiodides We...',
+          description: "",
+          section: "News",},{id: "news-new-phd-position-available-multi-modal-ai-models-for-designer-ferroelectric-devices-this-project-is-part-of-cohort-3-of-the-epsrc-cdt-in-developing-national-capability-for-materials-4-0-with-the-henry-royce-institute-fully-funded-for-home-and-international-students",
+          title: 'New PhD position available Multi-modal AI models for designer ferroelectric devices This project...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
