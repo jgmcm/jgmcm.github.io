@@ -20,6 +20,14 @@ nav_order: 2
 ---
 Since January 2025, I am a Dame Kathleen Ollerenshaw Research Fellow at the University of Manchester. My lab is centered on theoretical and computational, ab-initio and machine learning, modelling of complex electron density effects in two-dimensional materials.
 
+## Current Funded Opportunity
+
+**[Multi-modal AI models for designer ferroelectric devices](https://www.findaphd.com/phds/project/multi-modal-ai-models-for-designer-ferroelectric-devices/?p191593)** (EPSRC CDT in Materials 4.0, Henry Royce Institute)
+
+This fully-funded PhD project investigates multilayer functional devices built from stacked 2D semiconductors and magnetic materials. Using high-throughput DFT, machine-learning interatomic potentials (ACE/MACE), and multi-modal charge-aware models, we will explore how chemistry, stacking sequence, and interfacial twist control ferroelectric responses in sliding ferroelectric tunnel junctions, field-tuneable optoelectronics, and multiferroic memories. Candidates of all nationalities welcome; up to 30% of CDT studentships can be awarded to international applicants.
+
+---
+
 ## PhD Studentships
 I'm looking for motivated PhD candidates in any of the areas below. If your interests overlap, please get in touch.
 
@@ -41,12 +49,6 @@ I'm looking for motivated PhD candidates in any of the areas below. If your inte
   - Bayesian optimisation for MLIP and CD-ML models
 
 If you're interested in working with me on these topics, drop an email to james [dot] mchugh [at] manchester [dot] ac [dot] uk sharing more about your interests and background!
-
-### Current Funded Opportunity
-
-**[Multi-modal AI models for designer ferroelectric devices](https://www.findaphd.com/phds/project/multi-modal-ai-models-for-designer-ferroelectric-devices/?p191593)** (EPSRC CDT in Materials 4.0, Henry Royce Institute)
-
-This fully-funded PhD project investigates multilayer functional devices built from stacked 2D semiconductors and magnetic materials. Using high-throughput DFT, machine-learning interatomic potentials (ACE/MACE), and multi-modal charge-aware models, we will explore how chemistry, stacking sequence, and interfacial twist control ferroelectric responses in sliding ferroelectric tunnel junctions, field-tuneable optoelectronics, and multiferroic memories. Candidates of all nationalities welcome; up to 30% of CDT studentships can be awarded to international applicants.
 
 
 ### Post-doctoral fellows

@@ -28,6 +28,10 @@ latest_posts:
   limit: 3
 
 ---
+<div class="banner-image">
+  <img src="/assets/img/banner.jpg" alt="Graphene lattice" style="width: 100%; border-radius: 8px; margin-bottom: 1.5rem;">
+</div>
+
 I am a theoretical physicist studying two-dimensional materials at the National Graphene Institute, University of Manchester. I am currently looking for talented PhD students, please see my "Recruiting" page for details of my general research interests and possible projects. If interested, don't hesitate to get in touch!
 
 **Research interests**
