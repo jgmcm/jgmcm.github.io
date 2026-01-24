@@ -7,7 +7,8 @@ inline: true
 # any other custom front-matter your site expects…
 ---
 
-🎉 **New paper in Nano Letters**:  
+**New paper in Nano Letters**
+
 [Gate-Tunable Band Edge in Few-Layer MoS<sub>2</sub>](https://doi.org/10.1021/acs.nanolett.5c01998)
 
 
