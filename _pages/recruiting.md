@@ -3,7 +3,7 @@ layout: page
 permalink: /recruiting/
 title: Recruiting
 nav: True
-nav_order: 2
+nav_order: 1
 #pagination:
 #  enabled: true
 #  collection: posts
@@ -55,6 +55,5 @@ If you're interested in working with me on these topics, drop an email to james 
 We’re always keen to hear from strong applicants — please email a CV and a short statement
 
 ---
-
 
 

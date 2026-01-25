@@ -1,6 +1,6 @@
 ---
 title: "Atomic Imaging of 2D Transition Metal Diiodides"
-date: 2026-01-24
+date: 2026-01-14
 tags: [ACSNano, TMDs, 2D-materials, DFT, news]
 inline: true
 ---

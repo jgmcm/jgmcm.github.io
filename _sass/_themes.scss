@@ -6,29 +6,38 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$red-color-dark};
-  --global-hover-color: #{$red-color-dark};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
+  --global-bg-color: #f8f7f4;
+  --global-surface-1: #ffffff;
+  --global-surface-2: #f1efea;
+  --global-code-bg-color: rgba(15, 94, 91, 0.08);
+  --global-text-color: #1b1d1f;
+  --global-text-color-light: #5f6b6a;
+  --global-theme-color: #0f5e5b;
+  --global-hover-color: #0c4d4b;
+  --global-hover-text-color: #f9fbfa;
+  --global-footer-bg-color: #101418;
+  --global-footer-text-color: #c2c9c7;
+  --global-footer-link-color: #f3f7f6;
+  --global-distill-app-color: #5f6b6a;
+  --global-divider-color: rgba(15, 94, 91, 0.14);
+  --global-card-bg-color: #ffffff;
+  --global-highlight-color: #d97706;
+  --global-nav-bg-color: rgba(248, 247, 244, 0.85);
+  --global-shadow-color: rgba(15, 29, 29, 0.12);
+  --global-shadow-color-strong: rgba(15, 29, 29, 0.22);
+  --global-hero-glow: rgba(15, 94, 91, 0.25);
+  --global-bg-gradient: radial-gradient(1200px 600px at 5% -10%, rgba(15, 94, 91, 0.18), rgba(248, 247, 244, 0) 60%),
+    radial-gradient(900px 500px at 100% 0%, rgba(217, 119, 6, 0.16), rgba(248, 247, 244, 0) 55%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(248, 247, 244, 0.9));
   --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
+    15,
+    29,
+    29,
     0.4
   );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-back-to-top-text-color: #f8f7f4;
+  --global-newsletter-bg-color: #ffffff;
+  --global-newsletter-text-color: #1b1d1f;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -78,28 +87,38 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-bg-color: #0e1116;
+  --global-surface-1: #151a22;
+  --global-surface-2: #10151c;
+  --global-code-bg-color: #1c232c;
+  --global-text-color: #e7eceb;
+  --global-text-color-light: #9aa6a5;
+  --global-theme-color: #55d6c8;
+  --global-hover-color: #7de3dd;
+  --global-hover-text-color: #0b1116;
+  --global-footer-bg-color: #0a0d12;
+  --global-footer-text-color: #c2c9c7;
+  --global-footer-link-color: #f0f7f5;
+  --global-distill-app-color: #9aa6a5;
+  --global-divider-color: #26313f;
+  --global-card-bg-color: #151a22;
+  --global-highlight-color: #f4b24d;
+  --global-nav-bg-color: rgba(14, 17, 22, 0.85);
+  --global-shadow-color: rgba(0, 0, 0, 0.45);
+  --global-shadow-color-strong: rgba(0, 0, 0, 0.65);
+  --global-hero-glow: rgba(85, 214, 200, 0.18);
+  --global-bg-gradient: radial-gradient(1000px 520px at 0% -10%, rgba(85, 214, 200, 0.12), rgba(14, 17, 22, 0) 60%),
+    radial-gradient(800px 500px at 100% 0%, rgba(244, 178, 77, 0.14), rgba(14, 17, 22, 0) 55%),
+    linear-gradient(180deg, rgba(14, 17, 22, 0.9), rgba(14, 17, 22, 1));
   --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
+    255,
+    255,
+    255,
+    0.35
   );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-back-to-top-text-color: #0b1116;
+  --global-newsletter-bg-color: #151a22;
+  --global-newsletter-text-color: #e7eceb;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
