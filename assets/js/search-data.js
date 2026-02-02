@@ -73,7 +73,7 @@ ninja.data = [{
           section: "News",},{id: "news-new-paper-in-acs-nano-atomic-imaging-of-2d-transition-metal-diiodides-we-used-dft-to-calculate-stacking-energies-to-characterize-stacking-polytypes-and-their-evolution-with-layer-number-we-also-computed-point-and-line-defect-formation-energies-fitting-a-thermodynamic-model-to-dft-to-understand-the-conformation-of-edges-in-exfoliated-samples",
           title: 'New paper in ACS Nano Atomic Imaging of 2D Transition Metal Diiodides We...',
           description: "",
-          section: "News",},{id: "news-new-phd-position-available-multi-modal-ai-models-for-designer-ferroelectric-devices-this-project-is-part-of-cohort-3-of-the-epsrc-cdt-in-developing-national-capability-for-materials-4-0-with-the-henry-royce-institute-fully-funded-for-home-and-international-students",
+          section: "News",},{id: "news-new-phd-position-available-multi-modal-ai-models-for-designer-ferroelectric-devices-this-project-is-part-of-the-epsrc-cdt-in-developing-national-capability-for-materials-4-0-with-the-henry-royce-institute-fully-funded-for-home-and-international-students",
           title: 'New PhD position available Multi-modal AI models for designer ferroelectric devices This project...',
           description: "",
           section: "News",},{
