@@ -37,7 +37,6 @@ latest_posts:
   <div class="hero-actions">
     <a class="btn btn-primary" href="/recruiting/">Recruiting</a>
     <a class="btn btn-ghost" href="/publications/">Publications</a>
-    <a class="btn btn-ghost" href="/cv/">CV</a>
     <a class="btn btn-ghost" href="mailto:james.mchugh@manchester.ac.uk">Email</a>
   </div>
   <div class="hero-tags">
@@ -82,4 +81,3 @@ latest_posts:
     </p>
   </div>
 </section>
-

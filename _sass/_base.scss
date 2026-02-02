@@ -282,12 +282,11 @@ ul.task-list input[type="checkbox"] {
 // Navbar customization
 
 .navbar {
-  box-shadow: 0 10px 30px var(--global-shadow-color);
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-nav-bg-color);
   backdrop-filter: blur(12px);
   opacity: 0.98;
-  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
 .navbar .dropdown-menu {
@@ -777,13 +776,10 @@ footer.sticky-bottom {
       border-radius: 14px;
       border: 1px solid var(--global-divider-color);
       background: var(--global-card-bg-color);
-      box-shadow: 0 12px 28px var(--global-shadow-color);
-      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      transition: border-color 0.2s ease;
 
       &:hover {
-        transform: translateY(-3px);
         border-color: var(--global-theme-color);
-        box-shadow: 0 18px 40px var(--global-shadow-color-strong);
       }
 
       .preview {
