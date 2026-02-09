@@ -24,8 +24,7 @@ Since January 2025, I am a Dame Kathleen Ollerenshaw Research Fellow at the Univ
 
 **[Multi-modal AI models for designer ferroelectric devices](https://www.findaphd.com/phds/project/multi-modal-ai-models-for-designer-ferroelectric-devices/?p191593)** (EPSRC CDT in Materials 4.0, Henry Royce Institute)
 
-This fully-funded PhD project investigates multilayer functional devices built from stacked 2D semiconductors and magnetic materials. Using high-throughput DFT, machine-learning interatomic potentials (ACE/MACE), and multi-modal charge-aware models, we will explore how chemistry, stacking sequence, and interfacial twist control ferroelectric responses in sliding ferroelectric tunnel junctions, field-tuneable optoelectronics, and multiferroic memories. Candidates of all nationalities welcome; up to 30% of CDT studentships can be awarded to international applicants.
-
+This fully-funded PhD project investigates multilayer functional devices built from stacked 2D semiconductors and magnetic materials. Using high-throughput DFT, machine-learning interatomic potentials (ACE/MACE), and multi-modal charge-aware models, we will explore how chemistry, stacking sequence, and interfacial twist control ferroelectric responses in sliding ferroelectric tunnel junctions, field-tuneable optoelectronics, and multiferroic memories. 
 ---
 
 ## PhD Studentships
