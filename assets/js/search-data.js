@@ -37,34 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/code/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-arxiv-preprint-sub-nm-curvature-unlocks-quantum-flexoelectricity-in-graphene-recent-preprint-where-we-find-the-first-direct-experimental-and-theoretical-evidence-for-intrinsic-quantum-flexoelectricity-in-graphene-nanowrinkles-with-measured-polarization-densities-which-are-5-7-orders-of-magnitude-above-mesoscale-systems",
+        },{id: "news-new-arxiv-preprint-sub-nm-curvature-unlocks-quantum-flexoelectricity-in-graphene-recent-preprint-where-we-find-the-first-direct-experimental-and-theoretical-evidence-for-intrinsic-quantum-flexoelectricity-in-graphene-nanowrinkles-with-measured-polarization-densities-which-are-5-7-orders-of-magnitude-above-mesoscale-systems",
           title: 'New arXiv preprint Sub-nm Curvature Unlocks Quantum Flexoelectricity in Graphene Recent preprint where...',
           description: "",
           section: "News",},{id: "news-new-paper-in-nano-letters-gate-tunable-band-edge-in-few-layer-mos2-experimental-and-theoretical-study-of-gate-tunable-band-edge-physics-in-few-layer-mos2",
@@ -73,7 +46,7 @@ ninja.data = [{
           section: "News",},{id: "news-new-paper-in-acs-nano-atomic-imaging-of-2d-transition-metal-diiodides-we-used-dft-to-calculate-stacking-energies-to-characterize-stacking-polytypes-and-their-evolution-with-layer-number-we-also-computed-point-and-line-defect-formation-energies-fitting-a-thermodynamic-model-to-dft-to-understand-the-conformation-of-edges-in-exfoliated-samples",
           title: 'New paper in ACS Nano Atomic Imaging of 2D Transition Metal Diiodides We...',
           description: "",
-          section: "News",},{id: "news-new-phd-position-available-multi-modal-ai-models-for-designer-ferroelectric-devices-this-project-is-part-of-the-epsrc-cdt-in-developing-national-capability-for-materials-4-0-with-the-henry-royce-institute-fully-funded-for-home-and-international-students",
+          section: "News",},{id: "news-new-phd-position-available-multi-modal-ai-models-for-designer-ferroelectric-devices-this-project-is-part-of-the-epsrc-cdt-in-developing-national-capability-for-materials-4-0-with-the-henry-royce-institute-fully-funded-for-uk-home-students",
           title: 'New PhD position available Multi-modal AI models for designer ferroelectric devices This project...',
           description: "",
           section: "News",},{
@@ -82,6 +55,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%6A%61%6D%65%73.%6D%63%68%75%67%68@%6D%61%6E%63%68%65%73%74%65%72.%61%63.%75%6B", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/jgmcm", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-8509-4883", "_blank");
         },
       },{
         id: 'social-rss',
