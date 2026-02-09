@@ -1,9 +1,51 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"NatComms":
+  color: "#E67E22"
+  url: https://www.nature.com/ncomms/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ACSNano":
+  color: "#2E86C1"
+  url: https://pubs.acs.org/journal/ancac3
 
-"Vision":
-  color: "#009f36"
+"NanoLett":
+  color: "#8E44AD"
+  url: https://pubs.acs.org/journal/nalefd
+
+"PRB":
+  color: "#C0392B"
+  url: https://journals.aps.org/prb/
+
+"Carbon":
+  color: "#2C3E50"
+  url: https://www.sciencedirect.com/journal/carbon
+
+"arXiv":
+  color: "#B33A3A"
+  url: https://arxiv.org/
+
+"Small":
+  color: "#1ABC9C"
+  url: https://onlinelibrary.wiley.com/journal/16136829
+
+"npj2D":
+  color: "#E74C3C"
+  url: https://www.nature.com/npj2dmaterials/
+
+"AppSS":
+  color: "#27AE60"
+  url: https://www.sciencedirect.com/journal/applied-surface-science
+
+"JNM":
+  color: "#7F8C8D"
+  url: https://www.sciencedirect.com/journal/journal-of-nuclear-materials
+
+"SciRep":
+  color: "#F39C12"
+  url: https://www.nature.com/srep/
+
+"MDPIMat":
+  color: "#3498DB"
+  url: https://www.mdpi.com/journal/materials
+
+"AcadNano":
+  color: "#D4AC0D"
+  url: https://www.academia.edu/journals
