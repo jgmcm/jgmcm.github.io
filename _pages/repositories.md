@@ -35,7 +35,7 @@ nav_order: 4
 {% endif %}
 {% endif %}
 
-{% if site.data.repositories.github_repos %}
+{% if site.data.repositories.github_repos.size > 0 %}
 
 ## GitHub Repositories
 
@@ -44,4 +44,18 @@ nav_order: 4
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
+{% endif %}
+
+{% if site.data.repositories.github_users %}
+
+## Contributions
+
+{% for user in site.data.repositories.github_users %}
+<div class="mt-3 mb-3">
+  <a href="https://github.com/{{ user }}">
+    <img class="only-light w-100" alt="{{ user }}'s GitHub contributions" src="https://ghchart.rshah.org/{{ user }}" />
+    <img class="only-dark w-100" alt="{{ user }}'s GitHub contributions" src="https://ghchart.rshah.org/409ba5/{{ user }}" />
+  </a>
+</div>
+{% endfor %}
 {% endif %}
