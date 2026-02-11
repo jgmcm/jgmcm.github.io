@@ -4,7 +4,7 @@ permalink: /code/
 title: Code
 description: Open-source software and research code.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 {% if site.data.repositories.github_users %}
