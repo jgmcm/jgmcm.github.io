@@ -56,6 +56,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-phd-position-available-multi-modal-ai-models-for-designer-ferroelectric-devices-this-project-is-part-of-the-epsrc-cdt-in-developing-national-capability-for-materials-4-0-with-the-henry-royce-institute-fully-funded-for-uk-home-students",
           title: 'New PhD position available Multi-modal AI models for designer ferroelectric devices This project...',
           description: "",
+          section: "News",},{id: "news-new-preprint-on-arxiv-refined-dft-recipe-and-renormalisation-of-band-edge-parameters-for-electrons-in-monolayer-mos2-informed-by-the-measured-spin-orbit-splitting-using-diagrammatic-methods-we-demonstrate-that-conventional-dft-severely-underestimates-spin-orbit-splitting-in-the-mos2-conduction-band-dft-u-v-by-correcting-for-inter-site-interactions-resolves-this-discrepancy-and-offers-an-inexpensive-route-to-quantitative-accuracy-for-spintronic-applications-of-transition-metal-dichalcogenides",
+          title: 'New preprint on arXiv! 🎉 Refined DFT recipe and renormalisation of band-edge parameters...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
