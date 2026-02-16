@@ -2,16 +2,6 @@
 layout: about
 title: About
 permalink: /
-subtitle: |
-  <a href="https://www.manchester.ac.uk/">The University of Manchester</a> /
-  <a href="https://www.graphene.manchester.ac.uk/ngi/">National Graphene Institute</a>
-
-profile:
-  align: right
-  image_circular: false
-  more_info: >
-    <p>National Graphene Institute, </p>
-    <p>Manchester, UK </p>
 
 selected_papers: true
 social: true
@@ -23,8 +13,6 @@ announcements:
 
 latest_posts:
   enabled: false
-  scrollable: true
-  limit: 3
 
 ---
 

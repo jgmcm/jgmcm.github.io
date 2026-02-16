@@ -29,6 +29,20 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
+// Navbar affiliation
+.navbar-brand-group {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.navbar-affiliation {
+  font-size: 0.72rem;
+  color: var(--global-accent-tint);
+  letter-spacing: 0.02em;
+  padding-left: 2px;
+}
+
 // Profile
 .profile {
   position: relative;
@@ -72,7 +86,7 @@ body.sticky-bottom-footer {
 .news-date {
   min-width: 100px;
   font-size: 0.8rem;
-  color: var(--global-text-color-light);
+  color: var(--global-accent-tint);
 }
 
 .news-body {
@@ -100,7 +114,7 @@ body.sticky-bottom-footer {
   }
 
   a {
-    color: var(--global-text-color);
+    color: var(--global-accent-tint);
     text-decoration: none;
 
     &:hover {
@@ -111,7 +125,7 @@ body.sticky-bottom-footer {
       width: 1.2em;
       text-align: center;
       margin-right: 0.3rem;
-      color: var(--global-text-color-light);
+      color: var(--global-accent-tint);
     }
   }
 }
