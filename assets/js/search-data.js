@@ -59,6 +59,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-preprint-on-arxiv-refined-dft-recipe-and-renormalisation-of-band-edge-parameters-for-electrons-in-monolayer-mos2-informed-by-the-measured-spin-orbit-splitting-using-diagrammatic-methods-we-demonstrate-that-conventional-dft-severely-underestimates-spin-orbit-splitting-in-the-mos2-conduction-band-dft-u-v-by-correcting-for-inter-site-interactions-resolves-this-discrepancy-and-offers-an-inexpensive-route-to-quantitative-accuracy-for-spintronic-applications-of-transition-metal-dichalcogenides",
           title: 'New preprint on arXiv! 🎉 Refined DFT recipe and renormalisation of band-edge parameters...',
           description: "",
+          section: "News",},{id: "news-new-preprint-on-arxiv-charge-distribution-across-dislocation-networks-induced-by-a-strained-top-layer-in-hexagonal-boron-nitride-substrates-strain-acquired-during-assembly-of-van-der-waals-heterostructures-can-drive-plastic-deformations-in-hbn-creating-dislocation-networks-we-show-that-the-piezoelectric-nature-of-hbn-turns-these-dislocations-into-electrostatic-charge-hotspots-effectively-acting-as-charged-defects-in-the-encapsulated-2d-material",
+          title: 'New preprint on arXiv! Charge distribution across dislocation networks induced by a strained...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
