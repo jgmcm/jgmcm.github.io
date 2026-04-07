@@ -15,6 +15,18 @@ layout: default
 
       <!-- Right column: content -->
       <div class="col-sm-9">
+        <div class="about-header">
+          <h1 class="about-name">
+            {% if site.title == 'blank' %}
+              {% if site.first_name %}<span class="font-weight-bold">{{- site.first_name -}}</span>{% endif %}
+              {% if site.middle_name %} {{- site.middle_name -}}{% endif %}
+              {% if site.last_name %} {{- site.last_name -}}{% endif %}
+            {% else %}
+              {{- site.title -}}
+            {% endif %}
+          </h1>
+          <p class="about-position"><em>Dame Kathleen Ollerenshaw Fellow, National Graphene Institute, University of Manchester</em></p>
+        </div>
         <div class="clearfix">{{ content }}</div>
 
         <!-- News -->

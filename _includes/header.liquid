@@ -2,6 +2,7 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      {% unless page.permalink == '/' %}
       <div class="navbar-brand-group">
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
@@ -22,6 +23,7 @@
         </a>
         <span class="navbar-affiliation">The University of Manchester / National Graphene Institute</span>
       </div>
+      {% endunless %}
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
