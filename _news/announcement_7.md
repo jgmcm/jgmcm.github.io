@@ -5,4 +5,4 @@ tags: [publication, Science, gold, liquid-solid interface, electron microscopy, 
 inline: true
 ---
 
-New paper published in *Science*: [Atomic-resolution imaging of gold species at organic liquid-solid interfaces](https://www.science.org/journal/science). Direct imaging of gold catalytic species at the interface between an organic liquid and a solid support.
+**New paper in Science** — [Atomic-resolution imaging of gold species at organic liquid-solid interfaces](https://www.science.org/journal/science)
