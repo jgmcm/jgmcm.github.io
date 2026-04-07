@@ -62,6 +62,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-preprint-on-arxiv-charge-distribution-across-dislocation-networks-induced-by-a-strained-top-layer-in-hexagonal-boron-nitride-substrates-strain-acquired-during-assembly-of-van-der-waals-heterostructures-can-drive-plastic-deformations-in-hbn-creating-dislocation-networks-we-show-that-the-piezoelectric-nature-of-hbn-turns-these-dislocations-into-electrostatic-charge-hotspots-effectively-acting-as-charged-defects-in-the-encapsulated-2d-material",
           title: 'New preprint on arXiv! Charge distribution across dislocation networks induced by a strained...',
           description: "",
+          section: "News",},{id: "news-new-paper-published-in-science-atomic-resolution-imaging-of-gold-species-at-organic-liquid-solid-interfaces-direct-imaging-of-gold-catalytic-species-at-the-interface-between-an-organic-liquid-and-a-solid-support",
+          title: 'New paper published in Science: Atomic-resolution imaging of gold species at organic liquid-solid...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
