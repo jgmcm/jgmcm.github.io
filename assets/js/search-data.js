@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/code/";
           },
+        },{id: "nav-links",
+          title: "Links",
+          description: "Things I found interesting.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/links/";
+          },
         },{id: "news-new-arxiv-preprint-sub-nm-curvature-unlocks-quantum-flexoelectricity-in-graphene",
           title: 'New arXiv preprint — Sub-nm Curvature Unlocks Quantum Flexoelectricity in Graphene',
           description: "",
