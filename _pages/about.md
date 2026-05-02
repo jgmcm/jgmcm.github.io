@@ -20,4 +20,4 @@ latest_posts:
 
 I am a Dame Kathleen Ollerenshaw Fellow at the [National Graphene Institute](https://www.graphene.manchester.ac.uk/), University of Manchester.
 
-My research is focused on two-dimensional materials and their heterostructures, with particular interest in moiré physics, piezoelectricity, and machine learning for atomistic simulation.
+<!-- My research is focused on two-dimensional materials and their heterostructures, with particular interest in moiré physics, piezoelectricity, and machine learning for atomistic simulation. -->
