@@ -21,7 +21,7 @@ latest_posts:
 
 <div class="about-redesign">
   <figure>
-    <img src="{{ '/assets/img/prof_pic_color.png' | relative_url }}" alt="James G. McHugh">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Moiré materials pattern">
   </figure>
   <div>
     <p class="lede">I am a Dame Kathleen Ollerenshaw Fellow at the <a href="https://www.graphene.manchester.ac.uk/">National Graphene Institute</a>, University of Manchester.</p>
