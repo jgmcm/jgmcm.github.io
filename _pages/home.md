@@ -13,5 +13,3 @@ announcements:
   scrollable: false
   limit: 4
 ---
-
-I build computational models for how local structure, twist, stacking, and charge shape the behaviour of two-dimensional materials.
