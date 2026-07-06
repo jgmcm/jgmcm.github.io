@@ -1,0 +1,56 @@
+- title: "Atomic-resolution imaging of gold species at organic liquid-solid interfaces"
+  venue: "Science"
+  year: 2026
+  coauthors: "with Sullivan-Allsop, Clark, Wang, Cai, and others"
+  summary: "Direct imaging of gold species at organic liquid-solid interfaces, connecting atomistic structure with catalytic environments that are usually difficult to resolve."
+  detail: "This collaboration combines atomic-resolution microscopy with materials modelling to understand gold species where liquids, solids, and organic molecules meet. The result is a clearer picture of structure at interfaces that matter for catalysis and surface chemistry."
+
+- title: "Charge distribution across dislocation networks induced by a strained top layer in hBN substrates"
+  venue: "arXiv"
+  year: 2026
+  coauthors: "with Isaac Soltero and Vladimir I. Fal'ko"
+  summary: "A model for how strain-induced dislocation networks redistribute charge across hexagonal boron nitride substrates."
+  detail: "The paper studies how a strained upper layer can create extended dislocation networks, and how those networks shape charge redistribution in layered substrates. It fits into a broader programme on how mesoscale structure controls local electronic behaviour in van der Waals materials."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2602.21866"
+
+- title: "Refined DFT recipe and renormalisation of band-edge parameters for electrons in monolayer MoS2"
+  venue: "Nano Letters"
+  year: 2026
+  coauthors: "with Rozhansky, Masseroni, Pisoni, Alshammari, Li, Ihn, Ensslin, and Fal'ko"
+  summary: "A calibrated DFT workflow for monolayer MoS2, informed by measured spin-orbit splitting at the band edge."
+  detail: "The work uses experimental information to refine the way density-functional calculations describe band-edge parameters in monolayer MoS2. The aim is practical: make first-principles modelling more predictive for low-dimensional semiconductor devices."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2602.09858"
+
+- title: "Atomic Imaging of 2D Transition Metal Diiodides"
+  venue: "ACS Nano"
+  year: 2026
+  coauthors: "with Wang, Tainton, Clark, Li, Sullivan-Allsop, Hopkinson, and others"
+  summary: "Atomic-scale structural imaging of two-dimensional transition-metal diiodides, a class of layered materials relevant for magnetic and electronic functionality."
+  detail: "This collaboration focuses on resolving the atomic structure of 2D transition-metal diiodides. That structural information is a foundation for understanding the electronic and magnetic behaviour of these layered compounds."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1021/acsnano.5c19196"
+
+- title: "Sub-nm Curvature Unlocks Quantum Flexoelectricity in Graphene"
+  venue: "arXiv"
+  year: 2025
+  coauthors: "with Iyengar, Salvage, Vajtai, Dalton, Tripathi, Ajayan, and Meunier"
+  summary: "A study of how very small curvature radii can generate flexoelectric charge response in graphene."
+  detail: "Graphene is often treated as a flat sheet, but local curvature can be an active design variable. This work examines how sub-nanometre bending changes charge response and opens a route to curvature-controlled electronic behaviour."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2503.21996"
+
+- title: "Two-dimensional electrons at mirror and twistronic twin boundaries in van der Waals ferroelectrics"
+  venue: "Nature Communications"
+  year: 2024
+  coauthors: "with Xue Li, Isaac Soltero, and Vladimir I. Fal'ko"
+  summary: "Mirror and twistronic twin boundaries in layered ferroelectrics can host two-dimensional electronic states."
+  detail: "This paper connects polar domain structure with electronic confinement. The central point is that the boundaries created by mirror and twistronic stacking in van der Waals ferroelectrics are not passive defects; they can define conducting electronic channels."
+  links:
+    - label: "HTML"
+      url: "https://www.nature.com/articles/s41467-024-51176-1"

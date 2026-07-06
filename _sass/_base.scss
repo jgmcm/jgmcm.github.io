@@ -9,7 +9,7 @@ body {
   font-weight: 400;
   font-size: 1.03rem;
   line-height: 1.7;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
 }
 
 h1,
@@ -20,7 +20,7 @@ h5,
 h6 {
   font-family: "Fraunces", "Iowan Old Style", "Georgia", serif;
   font-weight: 600;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
 }
 
 p,
@@ -219,7 +219,7 @@ ul.task-list input[type="checkbox"] {
     margin-top: 5px;
     font-family: "Space Grotesk", "Manrope", sans-serif;
     font-size: 0.8rem;
-    letter-spacing: 0.08em;
+    letter-spacing: 0;
     text-transform: uppercase;
     color: var(--global-text-color-light);
 
@@ -268,7 +268,7 @@ ul.task-list input[type="checkbox"] {
   margin-bottom: 2rem;
 
   .post-title {
-    font-size: clamp(2.1rem, 3.5vw, 3.1rem);
+    font-size: 3rem;
     line-height: 1.05;
   }
 
@@ -329,7 +329,7 @@ ul.task-list input[type="checkbox"] {
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
     font-weight: 500;
-    letter-spacing: 0.01em;
+    letter-spacing: 0;
     border-bottom: 2px solid transparent;
 
     &:hover {

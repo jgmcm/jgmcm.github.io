@@ -16,12 +16,14 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed and page.hide_header != true %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %} {% if page.body_class %}{{ page.body_class }}{% endif %}">
     <!-- Header -->
-    {% include header.liquid %}
+    {% unless page.hide_header %}
+      {% include header.liquid %}
+    {% endunless %}
 
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    <div class="{% if page.full_width %}site-main-full{% else %}container mt-5{% endif %}" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
@@ -48,7 +50,9 @@
     </div>
 
     <!-- Footer -->
-    {% include footer.liquid %}
+    {% unless page.hide_footer %}
+      {% include footer.liquid %}
+    {% endunless %}
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}

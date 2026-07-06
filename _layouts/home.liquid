@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<main class="home-redesign" aria-label="Home">
+  <section class="home-stage">
+    <a class="home-tile home-tile-about" href="{{ '/about/' | relative_url }}">
+      <img src="{{ '/assets/img/prof_pic_color.png' | relative_url }}" alt="James G. McHugh">
+      <span>About</span>
+    </a>
+
+    <a class="home-tile home-tile-research" href="{{ '/research/' | relative_url }}">
+      <img src="{{ '/assets/img/materials-lattice.jpg' | relative_url }}" alt="Atomic lattice visual">
+      <span>Research</span>
+    </a>
+
+    <a class="home-tile home-tile-recruiting" href="{{ '/recruiting/' | relative_url }}">
+      <img src="{{ '/assets/img/materials-lattice.jpg' | relative_url }}" alt="Two-dimensional materials lattice">
+      <span>Recruiting</span>
+    </a>
+
+    <a class="home-tile home-tile-tools" href="{{ '/code/' | relative_url }}">
+      <img src="{{ '/assets/img/materials-lattice.jpg' | relative_url }}" alt="Computational materials visual">
+      <span>Tools</span>
+    </a>
+
+    <div class="home-identity">
+      <p class="home-kicker">University of Manchester / National Graphene Institute</p>
+      <h1>James G. McHugh</h1>
+      <nav class="home-links" aria-label="Primary">
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/research/' | relative_url }}">Research</a>
+        <a href="{{ '/recruiting/' | relative_url }}">Recruiting</a>
+        <a href="{{ '/code/' | relative_url }}">Tools</a>
+      </nav>
+      <p class="home-role">Dame Kathleen Ollerenshaw Fellow</p>
+      <p class="home-themes">2D materials · moire physics · stacking ferroelectrics · atomistic machine learning</p>
+    </div>
+  </section>
+
+  <section class="home-brief">
+    <div>
+      <h2>Computational materials theory for layered quantum systems.</h2>
+      <div class="home-copy">{{ content }}</div>
+    </div>
+    <div class="home-news">
+      <h2>Recent</h2>
+      {% include news.liquid limit=true %}
+    </div>
+  </section>
+</main>

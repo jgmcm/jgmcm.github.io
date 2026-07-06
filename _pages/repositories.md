@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /code/
-title: Code
+title: Tools
 description: Open-source software and research code.
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 {% if site.data.repositories.github_users %}
