@@ -3,7 +3,7 @@ layout: page
 permalink: /recruiting/
 title: Recruiting
 nav: True
-nav_order: 3
+nav_order: 4
 #pagination:
 #  enabled: true
 #  collection: posts
@@ -48,4 +48,3 @@ Since January 2025, I have been a Dame Kathleen Ollerenshaw Research Fellow at t
 </div>
 
 If you're interested in working with me, email james [dot] mchugh [at] manchester [dot] ac [dot] uk with a short note about your interests and background.
-

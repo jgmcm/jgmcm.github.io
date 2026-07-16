@@ -3,8 +3,8 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Complete bibliography in reverse chronological order.
-nav: false
-nav_order: 6
+nav: true
+nav_order: 3
 ---
 
 <!-- _pages/publications.md -->

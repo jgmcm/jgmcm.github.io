@@ -4,7 +4,7 @@ title: Links
 permalink: /links/
 description: Things I found interesting.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 - [Learning Mechanics](https://learningmechanics.pub/)
