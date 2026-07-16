@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "Complete bibliography in reverse chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "nav-recruiting",
           title: "Recruiting",
           description: "",
