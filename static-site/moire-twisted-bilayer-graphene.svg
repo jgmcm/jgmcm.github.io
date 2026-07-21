@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="100.64351mm" height="134.08393mm" viewBox="0 0 100.64351 134.08393" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <circle r="170" fill="#fff"/>
+  <pattern id="pat" x="1.84" y=".74" width="3.13" height="5.42" patternUnits="userSpaceOnUse">
+    <circle id="b" fill="#58034f" r=".81"/>
+    <use xlink:href="#b" x="1.565" y=".90333"/>
+    <use xlink:href="#b" x="1.565" y="2.7"/>
+    <use xlink:href="#b" x="3.13"/>
+    <use xlink:href="#b" x="3.13" y="3.61333"/>
+    <use xlink:href="#b" x="3.13" y="5.42"/>
+    <use xlink:href="#b" y="3.61333"/>
+    <use xlink:href="#b" y="5.42"/>
+  </pattern>
+  <path id="a" fill="url(#pat)" d="m8.88,2.6h75.15v116.6h-75.15z"/>
+  <use xlink:href="#a" transform="translate(14.5 1.46) rotate(4)"/>
+  <g font-family="Garamond" font-size="5.7">
+    <text transform="translate(59.4 130.1) rotate(4)">4° graphene</text>
+    <text transform="translate(5.3 128.9) rotate(-90)">graphene</text>
+  </g>
+</svg>
