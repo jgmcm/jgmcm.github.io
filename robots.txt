@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://jgmcm.github.io/sitemap.xml
