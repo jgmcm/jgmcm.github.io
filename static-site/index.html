@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Homepage redesign sketch for James G. McHugh, computational materials theorist."
+      content="James G. McHugh is a computational materials theorist at the University of Manchester."
     />
-    <meta name="theme-color" content="#f4f2ec" />
-    <title>James G. McHugh — Redesign II</title>
+    <meta name="theme-color" content="#f1f3f2" />
+    <title>James G. McHugh — Computational materials theory</title>
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -16,56 +16,67 @@
   <body class="home-page">
     <a class="skip-link" href="#main">Skip to content</a>
 
-    <main class="home-redesign" id="main">
-      <section class="home-stage" aria-labelledby="home-title">
-        <div class="home-identity">
-          <p class="home-kicker">University of Manchester / National Graphene Institute</p>
-          <h1 id="home-title">James G. McHugh</h1>
-          <p class="home-role">Dame Kathleen Ollerenshaw Fellow</p>
+    <header class="site-header home-header">
+      <div class="site-header-inner">
+        <a class="site-brand" href="/" aria-current="page">
+          <strong>James G. McHugh</strong>
+          <small>Computational materials theory</small>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="/about/">About</a>
+          <a href="/publications/">Publications</a>
+          <a href="/recruiting/">Recruiting</a>
+          <a href="/tools/">Tools</a>
+          <a href="/links/">Links</a>
+        </nav>
+      </div>
+    </header>
 
-          <p class="home-intro">
-            I work on computational materials theory for two-dimensional materials and van der Waals
-            heterostructures, with a focus on how stacking, strain, curvature, defects and interfaces
-            shape electronic behaviour.
-          </p>
+    <main class="profile-home" id="main">
+      <section class="profile-card" aria-labelledby="home-title">
+        <div class="profile-copy">
+          <header class="profile-heading">
+            <p class="profile-kicker">Computational materials theory</p>
+            <h1 id="home-title">James G. McHugh</h1>
+          </header>
 
-          <p class="home-themes">
-            2D materials <span>·</span> moiré physics <span>·</span> stacking ferroelectrics
-            <span>·</span> atomistic machine learning
-          </p>
+          <aside class="profile-affiliation" aria-label="Affiliation">
+            <p class="profile-role">Dame Kathleen Ollerenshaw Fellow</p>
+            <p>Department of Physics and Astronomy · University of Manchester</p>
+            <p>National Graphene Institute · Manchester, UK</p>
+          </aside>
 
-          <p class="home-contact-links" aria-label="Contact and profiles">
-            <a href="mailto:james.mchugh@manchester.ac.uk">Email</a>
-            <a href="https://scholar.google.com/citations?user=NMv2z6UAAAAJ">Google Scholar</a>
-            <a href="https://orcid.org/0000-0001-8509-4883">ORCID</a>
-            <a href="https://github.com/jgmcm">GitHub</a>
-          </p>
-
-          <nav class="home-links" aria-label="Primary">
-            <a href="/about/">About</a>
-            <a href="/publications/">Publications</a>
-            <a href="/recruiting/">Recruiting</a>
-            <a href="/tools/">Tools</a>
-            <a href="/links/">Links</a>
-          </nav>
+          <div class="profile-body">
+            <p class="profile-intro">
+              I work on computational materials theory for two-dimensional materials and van der Waals
+              heterostructures, with a focus on how stacking, strain, curvature, defects and interfaces
+              shape electronic behaviour.
+            </p>
+          </div>
         </div>
 
-        <figure class="home-visual">
-          <div class="home-visual-label">
-            <span>Twisted bilayer graphene</span>
+        <figure class="profile-visual">
+          <div class="profile-visual-label">
+            <span>Moiré structure</span>
             <span>04°</span>
           </div>
-          <div class="home-visual-frame">
+          <div class="profile-visual-frame">
             <img
               src="./moire-twisted-bilayer-graphene.svg"
               alt="Moiré pattern formed by two twisted graphene lattices"
             />
           </div>
           <figcaption>
-            Image: <a href="https://commons.wikimedia.org/wiki/File:Moire_of_twisted_bilayer_graphene.svg">Ponor</a>,
+            Twisted bilayer graphene · <a href="https://commons.wikimedia.org/wiki/File:Moire_of_twisted_bilayer_graphene.svg">Ponor</a>,
             <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
           </figcaption>
         </figure>
+
+        <nav class="profile-links" aria-label="Profiles">
+          <a href="https://scholar.google.com/citations?user=NMv2z6UAAAAJ">Google Scholar</a>
+          <a href="https://orcid.org/0000-0001-8509-4883">ORCID</a>
+          <a href="https://github.com/jgmcm">GitHub</a>
+        </nav>
       </section>
 
       <section class="home-brief" aria-labelledby="recent-title">
