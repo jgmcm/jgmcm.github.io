@@ -7,147 +7,163 @@
       name="description"
       content="James G. McHugh is a computational materials theorist at the University of Manchester."
     />
-    <meta name="theme-color" content="#f1f3f2" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#111820" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#101217" media="(prefers-color-scheme: dark)" />
     <title>James G. McHugh — Computational materials theory</title>
-    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="./styles.css" />
+    <script>
+      try {
+        var theme = localStorage.getItem("theme");
+        if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme;
+      } catch (error) {}
+    </script>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="/fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/site.js"></script>
   </head>
 
   <body class="home-page">
     <a class="skip-link" href="#main">Skip to content</a>
+    <div class="edge art" data-art="domain-walls orbitals" data-art-role="edge" aria-hidden="true"></div>
 
-    <header class="site-header home-header">
+    <header class="site-header">
       <div class="site-header-inner">
-        <a class="site-brand" href="/" aria-current="page">
+        <a class="site-brand" href="/">
           <strong>James G. McHugh</strong>
           <small>Computational materials theory</small>
         </a>
         <nav class="site-nav" aria-label="Primary">
+          <a href="/" aria-current="page">Home</a>
           <a href="/publications/">Publications</a>
           <a href="/recruiting/">Recruiting</a>
           <a href="/tools/">Tools</a>
           <a href="/links/">Links</a>
         </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to night mode" title="Switch to night mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" /></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></svg>
+        </button>
       </div>
     </header>
 
-    <main class="profile-home" id="main">
-      <section class="profile-card" aria-labelledby="home-title">
-        <div class="profile-copy">
-          <header class="profile-heading">
-            <p class="profile-kicker">Computational materials theory</p>
-            <h1 id="home-title">James G. McHugh</h1>
-          </header>
+    <main class="page-shell home" id="main">
+      <section class="hero" aria-labelledby="home-title">
+        <div class="hero-text">
+          <p class="kicker">Computational materials theory</p>
+          <h1 id="home-title">James G. McHugh</h1>
 
-          <aside class="profile-affiliation" aria-label="Affiliation">
-            <p class="profile-role">Dame Kathleen Ollerenshaw Fellow</p>
+          <aside class="affiliation" aria-label="Affiliation">
+            <p class="role">Dame Kathleen Ollerenshaw Fellow</p>
             <p>Department of Physics and Astronomy · University of Manchester</p>
             <p>National Graphene Institute · Manchester, UK</p>
           </aside>
 
-          <div class="profile-body">
-            <p class="profile-intro">
+          <div class="intro">
+            <p>
               I’m a computational materials theorist at the University of Manchester, based in the
               National Graphene Institute. I develop theoretical, computational and ML methods for
               materials physics.
             </p>
-            <p class="profile-intro">
+            <p>
               I am interested in how atomic-scale structural properties, such as stacking, strain, curvature
               and interfaces, shape the electronic properties of two-dimensional materials and van der Waals
               heterostructures.
             </p>
-            <p class="profile-intro">
+            <p>
               Please get in touch if you’re interested in applying for competitive PhD or postdoctoral
               funding to work with me in Manchester, or in collaborating on research.
             </p>
           </div>
+
+          <div class="home-links">
+            <nav aria-label="Profiles">
+              <ul class="profile-links">
+                <li><a href="https://scholar.google.com/citations?user=NMv2z6UAAAAJ">Google Scholar<span aria-hidden="true">↗</span></a></li>
+                <li><a href="https://orcid.org/0000-0001-8509-4883">ORCID<span aria-hidden="true">↗</span></a></li>
+                <li><a href="https://github.com/jgmcm">GitHub<span aria-hidden="true">↗</span></a></li>
+              </ul>
+            </nav>
+            <nav class="other-sites" aria-label="Other sites">
+              <span>Other sites</span>
+              <a href="https://jgmcm.github.io/carbon-datasets/">Carbon datasets</a>
+              <a href="https://jgmcm.github.io/cinema-nearby/">Cinema Nearby</a>
+            </nav>
+          </div>
         </div>
 
-        <figure class="profile-visual">
-          <div class="profile-visual-label">
-            <span>Moiré structure</span>
-            <span>04°</span>
-          </div>
-          <div class="profile-visual-frame">
-            <img
-              src="./moire-twisted-bilayer-graphene.svg"
-              alt="Moiré pattern formed by two twisted graphene lattices"
-            />
+        <figure class="hero-figure">
+          <div class="hero-print art" data-art="moire" data-art-role="hero">
+            <noscript>
+              <img
+                src="/art/moire-0-800.webp"
+                width="603"
+                height="800"
+                alt="Moiré superlattice formed by two graphene lattices twisted by 4°, redrawn as an illustration"
+              />
+            </noscript>
           </div>
           <figcaption>
-            Twisted bilayer graphene · <a href="https://commons.wikimedia.org/wiki/File:Moire_of_twisted_bilayer_graphene.svg">Ponor</a>,
+            <strong>Moiré superlattice, twisted bilayer graphene at 4°</strong>
+            Redrawn after a figure by
+            <a href="https://commons.wikimedia.org/wiki/File:Moire_of_twisted_bilayer_graphene.svg">Ponor</a>,
             <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
           </figcaption>
         </figure>
-
-        <nav class="profile-links" aria-label="Profiles">
-          <a href="https://scholar.google.com/citations?user=NMv2z6UAAAAJ">Google Scholar</a>
-          <a href="https://orcid.org/0000-0001-8509-4883">ORCID</a>
-          <a href="https://github.com/jgmcm">GitHub</a>
-        </nav>
-
-        <nav class="project-links" aria-label="Other sites">
-          <span>Other sites</span>
-          <a href="https://jgmcm.github.io/carbon-datasets/">Carbon datasets</a>
-          <a href="https://jgmcm.github.io/cinema-nearby/">Cinema Nearby</a>
-        </nav>
       </section>
 
-      <section class="home-brief" aria-labelledby="recent-title">
-        <div class="home-news">
-          <div class="section-heading">
-            <h2 id="recent-title">Recent</h2>
-            <a href="/news/">All news</a>
-          </div>
-
-          <ol class="news-list">
-            <li class="news-item type-paper" data-venue="adv-mater">
-              <time datetime="2026-07-25">25 Jul 2026</time>
-              <p>
-                <span>Adv. Mater.</span>
-                <a href="https://doi.org/10.1002/adma.202518224">Sub-Nanometer Curvature Unlocks Quantum Orbital Flexoelectricity in Graphene</a>
-              </p>
-            </li>
-            <li class="news-item type-paper" data-venue="prb">
-              <time datetime="2026-06-10">10 Jun 2026</time>
-              <p>
-                <span>PRB</span>
-                <a href="https://doi.org/10.1103/w8l8-pqdz">Charge distribution across dislocation networks in strained hBN</a>
-              </p>
-            </li>
-            <li class="news-item type-paper" data-venue="nano-letters">
-              <time datetime="2026-05-06">06 May 2026</time>
-              <p>
-                <span>Nano Letters</span>
-                <a href="https://doi.org/10.1021/acs.nanolett.6c00725">Refined DFT recipe for band-edge parameters in monolayer MoS₂</a>
-              </p>
-            </li>
-            <li class="news-item type-archive">
-              <time datetime="2026-05-02">02 May 2026</time>
-              <p>
-                <span>Past advert</span>
-                <a href="/recruiting/">Previous PhD topic: neural quantum states in 2D materials</a>
-              </p>
-            </li>
-            <li class="news-item type-paper" data-venue="science">
-              <time datetime="2026-04-02">02 Apr 2026</time>
-              <p>
-                <span>Science</span>
-                <a href="https://doi.org/10.1126/science.adw2469">Atomic-resolution imaging of gold at organic liquid–solid interfaces</a>
-              </p>
-            </li>
-            <li class="news-item type-preprint">
-              <time datetime="2026-02-25">25 Feb 2026</time>
-              <p>
-                <span>Preprint</span>
-                <a href="https://arxiv.org/abs/2602.21866">Charge distribution across dislocation networks in hBN</a>
-              </p>
-            </li>
-          </ol>
-
+      <section class="recent" aria-labelledby="recent-title">
+        <div class="section-heading">
+          <h2 class="section-label" id="recent-title">Recent</h2>
+          <a href="/news/">All news →</a>
         </div>
+
+        <ol class="news-list">
+          <li class="news-item type-paper" data-venue="adv-mater">
+            <time datetime="2026-07-25">25 Jul 2026</time>
+            <p>
+              <span>Adv. Mater.</span>
+              <a href="https://doi.org/10.1002/adma.202518224">Sub-Nanometer Curvature Unlocks Quantum Orbital Flexoelectricity in Graphene</a>
+            </p>
+          </li>
+          <li class="news-item type-paper" data-venue="prb">
+            <time datetime="2026-06-10">10 Jun 2026</time>
+            <p>
+              <span>PRB</span>
+              <a href="https://doi.org/10.1103/w8l8-pqdz">Charge distribution across dislocation networks in strained hBN</a>
+            </p>
+          </li>
+          <li class="news-item type-paper" data-venue="nano-letters">
+            <time datetime="2026-05-06">06 May 2026</time>
+            <p>
+              <span>Nano Letters</span>
+              <a href="https://doi.org/10.1021/acs.nanolett.6c00725">Refined DFT recipe for band-edge parameters in monolayer MoS₂</a>
+            </p>
+          </li>
+          <li class="news-item type-archive">
+            <time datetime="2026-05-02">02 May 2026</time>
+            <p>
+              <span>Past advert</span>
+              <a href="/recruiting/">Previous PhD topic: neural quantum states in 2D materials</a>
+            </p>
+          </li>
+          <li class="news-item type-paper" data-venue="science">
+            <time datetime="2026-04-02">02 Apr 2026</time>
+            <p>
+              <span>Science</span>
+              <a href="https://doi.org/10.1126/science.adw2469">Atomic-resolution imaging of gold at organic liquid–solid interfaces</a>
+            </p>
+          </li>
+          <li class="news-item type-preprint">
+            <time datetime="2026-02-25">25 Feb 2026</time>
+            <p>
+              <span>Preprint</span>
+              <a href="https://arxiv.org/abs/2602.21866">Charge distribution across dislocation networks in hBN</a>
+            </p>
+          </li>
+        </ol>
       </section>
     </main>
+
+    <footer class="site-footer"><div class="site-footer-inner"><span>James G. McHugh · University of Manchester</span><span><a href="mailto:james.mchugh@manchester.ac.uk">Email</a></span></div></footer>
   </body>
 </html>
