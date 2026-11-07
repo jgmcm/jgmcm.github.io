@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Research themes of James G. McHugh: machine learning for materials, moiré heterostructures, sliding ferroelectricity, band-edge physics and defects in layered materials." />
+    <meta name="description" content="Research themes of James G. McHugh: machine learning for materials, moiré materials and ferroelectricity, electronic structure of 2D semiconductors, and defects, curvature and interfaces." />
     <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#101217" media="(prefers-color-scheme: dark)" />
     <title>Research — James G. McHugh</title>
@@ -55,11 +55,10 @@
 
       <div class="page-content">
         <p class="lede">I use theory, first-principles calculations, atomistic simulation and machine learning to connect the structure of layered materials to their electronic properties.</p>
-        <p>
-          The themes below summarise the work I have published and the directions I am developing. Most of
-          it involves close collaboration with experimental groups at the National Graphene Institute and
-          elsewhere. If one of these areas interests you, the <a href="/recruiting/">Recruiting</a> page
-          explains how to get in touch.
+        <p id="theme-experiment">
+          My work combines published studies with developing directions, in close collaboration with
+          electron-microscopy and transport groups at the National Graphene Institute and elsewhere.
+          See <a href="/recruiting/">Recruiting</a> for opportunities to get involved.
         </p>
 
         <div class="research-grid">
@@ -67,20 +66,13 @@
             <figure class="card-art art" data-art="all" data-art-role="card" aria-hidden="true"></figure>
             <div class="research-card-body">
               <p class="status-label">01 · Developing direction</p>
-              <h2 id="theme-ml">Machine-learned interatomic potentials and machine learning for materials</h2>
+              <h2 id="theme-ml">Machine learning for materials</h2>
               <p>
-                Machine-learned interatomic potentials (MLIPs) are trained on first-principles data and
-                reproduce density functional theory energies and forces at a small fraction of the cost. They
-                make it possible to relax and simulate structures with hundreds of thousands of atoms, such as
-                twisted bilayers with long moiré periods, extended defect networks and interfaces, while
-                staying close to DFT accuracy.
-              </p>
-              <p>
-                I am developing MLIPs for layered materials and van der Waals heterostructures, with particular
-                attention to the weak interlayer interactions that control stacking, sliding and reconstruction.
-                A second strand uses machine learning beyond potentials: models that predict electronic
-                properties directly from structure, and neural-network methods for correlated electrons such as
-                neural quantum states.
+                I am developing machine-learned interatomic potentials for layered materials and van der Waals
+                heterostructures, focusing on the weak interlayer interactions that control stacking, sliding
+                and reconstruction. Trained on first-principles data, these models enable large-scale simulations
+                near DFT accuracy. I also explore models that predict electronic properties from structure and
+                neural quantum states for correlated electrons.
               </p>
             </div>
             <div class="research-related">
@@ -92,87 +84,37 @@
             </div>
           </section>
 
-          <section class="research-card" aria-labelledby="theme-large-angle">
+          <section class="research-card" id="theme-large-angle" aria-labelledby="theme-reconstruction">
             <figure class="card-art art" data-art="all" data-art-role="card" aria-hidden="true"></figure>
             <div class="research-card-body">
-              <p class="status-label">02 · Developing direction</p>
-              <h2 id="theme-large-angle">Large-angle moiré heterostructures</h2>
+              <p class="status-label status-neutral">02 · Moiré and ferroic materials</p>
+              <h2 id="theme-reconstruction">Moiré materials and ferroelectricity</h2>
               <p>
-                Most work on twisted 2D materials concentrates on small twist angles, where the moiré period is
-                long and the lattice reconstructs into domains. At larger angles the moiré period shrinks to a
-                few nanometres and reconstruction is weak. The electronic structure then depends on how the two
-                lattices match up and on interlayer hybridisation at particular points of the Brillouin zone.
+                I model twisted bilayers across the full range of angles, from small-angle lattice reconstruction
+                in transition-metal dichalcogenides and NbSe₂ to large-angle heterostructures and the 30°
+                quasicrystalline limit. At small angles, stacking domains and domain-wall networks reshape the
+                electronic potential and can form self-organised quantum dots; at larger angles, lattice matching
+                and interlayer hybridisation become central.
               </p>
-              <p>
-                I am interested in how twisted bilayers and heterostructures behave across the full range of
-                angles, including commensurate angles and the 30° quasicrystalline limit, and in combinations of
-                different 2D crystals. Accurate modelling of these systems needs large supercells, which links
-                this theme to the machine-learned potentials above.
+              <p id="theme-ferroelectric">
+                In sliding ferroelectrics, stacking controls polarisation and the electronic states at domain
+                walls and twin boundaries. I study these states, including two-dimensional electron gases,
+                compare ferroelectric properties across van der Waals chalcogenides, and extend this work to
+                sliding ferroic multipoles in antiferromagnets.
               </p>
             </div>
             <div class="research-related">
-              <h3>Related</h3>
-              <ul>
-                <li><a href="#theme-reconstruction">Lattice reconstruction at small twist angles</a> <span class="related-note">theme 03</span></li>
-                <li><a href="#theme-ml">Machine-learned interatomic potentials</a> <span class="related-note">theme 01</span></li>
-              </ul>
-            </div>
-          </section>
-
-          <section class="research-card" aria-labelledby="theme-reconstruction">
-            <figure class="card-art art" data-art="all" data-art-role="card" aria-hidden="true"></figure>
-            <div class="research-card-body">
-              <p class="status-label status-neutral">03 · Moiré materials</p>
-              <h2 id="theme-reconstruction">Lattice reconstruction in marginally twisted bilayers</h2>
-              <p>
-                When two layers are stacked with a small twist or lattice mismatch, the atoms relax to form
-                domains of low-energy stacking separated by networks of domain walls. I model this
-                reconstruction in transition-metal dichalcogenides and NbSe₂, using multiscale models
-                parametrised with density functional theory.
-              </p>
-              <p>
-                Reconstruction changes the potential that electrons and excitons experience. In MoSe₂/WSe₂ and
-                MoS₂/WS₂ bilayers the domain network produces arrays of self-organised quantum dots, and the
-                competition between sites of the network decides where carriers localise. With
-                electron-microscopy groups in Manchester, I compare these models with images of twist domains
-                and of reconstruction at buried interfaces.
-              </p>
-            </div>
-            <div class="research-related">
-              <h3>Selected papers</h3>
+              <h3>Selected papers and related topics</h3>
               <ul>
                 <li><a href="https://arxiv.org/abs/2608.30531">Moiré-induced lattice reconstruction at buried atomic interfaces</a> <span class="venue" data-venue="arxiv">arXiv</span></li>
                 <li><a href="https://doi.org/10.1021/acsnano.4c09364">SEM imaging of twist domains in TMD heterostructures</a> <span class="venue" data-venue="acs-nano">ACS Nano</span></li>
                 <li><a href="https://doi.org/10.1021/acs.nanolett.3c04427">Competition of moiré network sites to form quantum dots</a> <span class="venue" data-venue="nanolett">Nano Letters</span></li>
                 <li><a href="https://link.aps.org/doi/10.1103/PhysRevB.108.224111">Moiré superstructures in marginally twisted NbSe₂ bilayers</a> <span class="venue" data-venue="prb">PRB</span></li>
                 <li><a href="https://doi.org/10.1038/s41699-022-00346-0">Self-organized quantum dots in marginally twisted bilayers</a> <span class="venue" data-venue="npj2d">npj 2D</span></li>
-              </ul>
-            </div>
-          </section>
-
-          <section class="research-card" aria-labelledby="theme-ferroelectric">
-            <figure class="card-art art" data-art="all" data-art-role="card" aria-hidden="true"></figure>
-            <div class="research-card-body">
-              <p class="status-label status-neutral">04 · Ferroelectrics</p>
-              <h2 id="theme-ferroelectric">Sliding ferroelectricity and domain-wall electronics</h2>
-              <p>
-                In bilayers with parallel (rhombohedral) stacking, the two stacking configurations carry opposite
-                out-of-plane polarisation, and sliding one layer by one interatomic distance switches between
-                them. This sliding ferroelectricity appears in materials that are not ferroelectric in bulk, and
-                the stacking and twist determine the pattern of its domains.
-              </p>
-              <p>
-                I study the electronic states that form at domain walls and twin boundaries in these materials,
-                including two-dimensional electron gases at mirror and twistronic twin boundaries, and I use DFT
-                to compare ferroelectric properties across van der Waals chalcogenides. More recent work extends
-                these ideas to sliding ferroic multipoles in van der Waals antiferromagnets.
-              </p>
-            </div>
-            <div class="research-related">
-              <h3>Selected papers</h3>
-              <ul>
                 <li><a href="https://www.nature.com/articles/s41467-024-51176-1">Two-dimensional electrons at mirror and twistronic twin boundaries</a> <span class="venue" data-venue="nat-comms">Nat Comms</span></li>
                 <li><a href="https://doi.org/10.20935/AcadNano7506">Ferroelectric properties of van der Waals chalcogenides</a> <span class="venue" data-venue="acad-nano">Academia Nano</span></li>
+                <li><a href="#theme-reconstruction">Lattice reconstruction at small twist angles</a> <span class="related-note">small-angle regime</span></li>
+                <li><a href="#theme-ml">Machine-learned interatomic potentials</a> <span class="related-note">theme 01</span></li>
               </ul>
             </div>
           </section>
@@ -180,19 +122,14 @@
           <section class="research-card" aria-labelledby="theme-band-edge">
             <figure class="card-art art" data-art="all" data-art-role="card" aria-hidden="true"></figure>
             <div class="research-card-body">
-              <p class="status-label status-neutral">05 · Electronic structure</p>
-              <h2 id="theme-band-edge">Band-edge physics of 2D semiconductors from first principles</h2>
+              <p class="status-label status-neutral">03 · Electronic structure</p>
+              <h2 id="theme-band-edge">Electronic structure of 2D semiconductors</h2>
               <p>
-                Quantitative predictions for devices need accurate band-edge parameters: effective masses,
-                spin–orbit splittings, valley energies and their response to gating. Standard density functional
-                theory does not always give these correctly, so I work on first-principles recipes that correct
-                them, calibrated against measurements on MoS₂ and other transition-metal dichalcogenides.
-              </p>
-              <p>
-                Recent work refines DFT for monolayer MoS₂ using the measured spin–orbit splitting, explains the
-                gate-tunable band edge in few-layer MoS₂, and adds extended Hubbard corrections (on-site U and
-                inter-site V) that control the orbital character of band-edge states in MoS₂, MoSe₂, WS₂
-                and WSe₂.
+                I refine first-principles methods for band-edge parameters in 2D semiconductors, including
+                effective masses, spin–orbit splittings, valley energies and gate response. Recent work uses
+                measured spin–orbit splitting to calibrate DFT for monolayer MoS₂, explains gate-tunable band
+                edges in few-layer MoS₂, and applies extended Hubbard corrections to band-edge orbital character
+                in MoS₂, MoSe₂, WS₂ and WSe₂. These studies connect modelling with quantum-transport measurements.
               </p>
             </div>
             <div class="research-related">
@@ -208,20 +145,17 @@
           <section class="research-card" aria-labelledby="theme-defects">
             <figure class="card-art art" data-art="all" data-art-role="card" aria-hidden="true"></figure>
             <div class="research-card-body">
-              <p class="status-label status-neutral">06 · Defects and mechanics</p>
-              <h2 id="theme-defects">Defects, dislocations and curvature in layered materials</h2>
+              <p class="status-label status-neutral">04 · Defects and interfaces</p>
+              <h2 id="theme-defects">Defects, curvature and interfaces</h2>
               <p>
-                Layered materials host defects with no direct counterpart in ordinary crystals, such as
-                ripplocations, alongside dislocations whose structure is changed by the weak bonding between
-                layers. I model the structure and energetics of prismatic edge dislocations and partial basal
-                dislocations in graphite and bilayer graphene, and the dislocation networks that form in strained
-                hexagonal boron nitride.
+                I model dislocations and ripplocations in graphite and bilayer graphene, and strain-induced
+                dislocation networks in hBN. I study how defects and sub-nanometre curvature redistribute charge
+                and alter electronic response, including flexoelectricity in graphene, alongside diffusion and
+                friction in layered materials.
               </p>
               <p>
-                Defects and curvature also change electronic properties and transport. This theme includes charge
-                redistribution across dislocation networks, flexoelectricity in graphene curved at the
-                sub-nanometre scale, the diffusion of fission products and metal nanoclusters on graphene and in
-                graphite, and friction on strained graphene.
+                With experimental collaborators, I also use atomistic modelling and DFT to study gold species at
+                liquid–solid interfaces, transition-metal diiodides and lithium intercalation in bilayer graphene.
               </p>
             </div>
             <div class="research-related">
@@ -232,28 +166,13 @@
                 <li><a href="https://doi.org/10.1016/j.carbon.2023.118613">Partial basal dislocation dipoles in bilayer graphene and graphite</a> <span class="venue" data-venue="carbon">Carbon</span></li>
                 <li><a href="https://doi.org/10.1016/j.carbon.2021.11.072">Prismatic edge dislocations in graphite</a> <span class="venue" data-venue="carbon">Carbon</span></li>
                 <li><a href="https://doi.org/10.1103/PhysRevB.103.195436">Ripplocations in layered materials</a> <span class="venue" data-venue="prb">PRB</span></li>
+                <li><a href="https://doi.org/10.1126/science.adw2469">Atomic-resolution imaging of gold at organic liquid–solid interfaces</a> <span class="venue" data-venue="science">Science</span></li>
+                <li><a href="https://doi.org/10.1021/acsnano.5c19196">Atomic imaging of 2D transition metal diiodides</a> <span class="venue" data-venue="acs-nano">ACS Nano</span></li>
+                <li><a href="https://doi.org/10.1038/s41467-024-51196-x">In-plane staging in lithium-ion intercalation of bilayer graphene</a> <span class="venue" data-venue="nat-comms">Nat Comms</span></li>
               </ul>
             </div>
           </section>
         </div>
-
-        <section class="collab-panel" aria-labelledby="theme-experiment">
-          <div>
-            <p class="status-label status-neutral">Across all themes</p>
-            <h2 id="theme-experiment">Working with experiment</h2>
-            <p>
-              Much of this work is done with experimental groups, particularly in electron microscopy and
-              transport. I provide modelling and DFT for studies of gold species at liquid–solid interfaces,
-              transition-metal diiodides, lithium intercalation in bilayer graphene and quantum transport in
-              MoS₂.
-            </p>
-          </div>
-          <ul>
-            <li><a href="https://doi.org/10.1126/science.adw2469">Atomic-resolution imaging of gold at organic liquid–solid interfaces</a> <span class="venue" data-venue="science">Science</span></li>
-            <li><a href="https://doi.org/10.1021/acsnano.5c19196">Atomic imaging of 2D transition metal diiodides</a> <span class="venue" data-venue="acs-nano">ACS Nano</span></li>
-            <li><a href="https://doi.org/10.1038/s41467-024-51196-x">In-plane staging in lithium-ion intercalation of bilayer graphene</a> <span class="venue" data-venue="nat-comms">Nat Comms</span></li>
-          </ul>
-        </section>
       </div>
     </main>
 
